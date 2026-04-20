@@ -66,13 +66,14 @@ export function ProcedureSection() {
 
     const ctx = gsap.context(() => {
       // Pin the section and drive horizontal scroll with vertical scroll
-      gsap.to(track, {
+      const hscrollTween = gsap.to(track, {
+        id: "hscroll",
         x: -totalScroll,
         ease: "none",
         scrollTrigger: {
           trigger: wrapper,
           start: "top top",
-          end: () => `+=${totalScroll + window.innerHeight * 0.5}`,
+          end: () => `+=${totalScroll + window.innerHeight * 0.15}`,
           scrub: 1.2,
           pin: true,
           anticipatePin: 1,
@@ -97,12 +98,12 @@ export function ProcedureSection() {
             ease: "power2.out",
             scrollTrigger: {
               trigger: panel,
-              containerAnimation: gsap.getById("hscroll") as gsap.core.Tween,
+              containerAnimation: hscrollTween,
               start: "left 80%",
               end: "left 30%",
               scrub: 0.5,
             },
-          }
+          },
         );
       });
 
@@ -241,9 +242,7 @@ export function ProcedureSection() {
                     className="h-px flex-1 transition-all duration-500"
                     style={{
                       background:
-                        j <= i
-                          ? "var(--gold)"
-                          : "rgba(201,169,110,0.2)",
+                        j <= i ? "var(--gold)" : "rgba(201,169,110,0.2)",
                     }}
                   />
                 ))}
