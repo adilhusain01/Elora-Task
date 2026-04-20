@@ -37,19 +37,19 @@ export const metadata: Metadata = {
   creator: "Studio Peau",
   metadataBase: new URL("https://studio-peau.vercel.app"),
   alternates: {
-    canonical: "/",
+    canonical: "https://studio-peau.vercel.app/",
   },
   openGraph: {
     title: "Lip Blushing in Delhi | Studio Peau",
     description:
       "Premium semi-permanent lip blushing in Delhi. Wake up with perfect lips every day.",
-    url: "https://studio-peau.vercel.app",
+    url: "https://studio-peau.vercel.app/",
     siteName: "Studio Peau",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/images/og.png",
+        url: "https://studio-peau.vercel.app/images/og.png",
         width: 1200,
         height: 630,
         alt: "Studio Peau Lip Blushing in Delhi",
@@ -60,12 +60,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Lip Blushing in Delhi | Studio Peau",
     description: "Premium semi-permanent lip blushing in Delhi.",
-    images: ["/images/og.png"],
+    images: ["https://studio-peau.vercel.app/images/og.png"],
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "/images/favicon.ico",
+    shortcut: "/images/favicon.ico",
+    apple: "/images/favicon.ico",
   },
   robots: {
     index: true,
