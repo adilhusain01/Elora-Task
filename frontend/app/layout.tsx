@@ -39,6 +39,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://studiopeau.adilhusain.xyz/",
   },
+  images: ["https://studiopeau.adilhusain.xyz/og.png"],
   openGraph: {
     title: "Lip Blushing in Delhi | Studio Peau",
     description:
@@ -49,8 +50,8 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://studiopeau.adilhusain.xyz/images/og.png",
-        secureUrl: "https://studiopeau.adilhusain.xyz/images/og.png",
+        url: "https://studiopeau.adilhusain.xyz/og.png",
+        secureUrl: "https://studiopeau.adilhusain.xyz/og.png",
         type: "image/png",
         width: 1200,
         height: 630,
@@ -62,12 +63,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Lip Blushing in Delhi | Studio Peau",
     description: "Premium semi-permanent lip blushing in Delhi.",
-    images: [{ url: "https://studiopeau.adilhusain.xyz/images/og.png" }],
+    creator: "@StudioPeau",
+    images: ["https://studiopeau.adilhusain.xyz/og.png"],
   },
   icons: {
-    icon: "/images/favicon.ico",
-    shortcut: "/images/favicon.ico",
-    apple: "/images/favicon.ico",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   robots: {
     index: true,
@@ -87,7 +89,7 @@ const localBusinessSchema = {
   url: "https://studiopeau.adilhusain.xyz",
   telephone: "+91-99999-99999",
   email: "hello@studiopeau.in",
-  image: "https://studiopeau.adilhusain.xyz/images/og.png",
+  image: "https://studiopeau.adilhusain.xyz/og.png",
   priceRange: "₹₹₹",
   currenciesAccepted: "INR",
   paymentAccepted: "Cash, Credit Card, UPI",
