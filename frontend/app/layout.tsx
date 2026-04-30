@@ -39,7 +39,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://studiopeau.adilhusain.xyz/",
   },
-  images: ["https://studiopeau.adilhusain.xyz/og.png"],
   openGraph: {
     title: "Lip Blushing in Delhi | Studio Peau",
     description:
