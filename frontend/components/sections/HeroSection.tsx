@@ -73,7 +73,7 @@ export function HeroSection() {
         style={{ transform: bgTransform, willChange: "transform" }}
       >
         <Image
-          src="/images/hero-bg.webp"
+          src="/hero-bg.webp"
           alt="Close-up of perfectly blush-toned lips — Studio Peau lip blushing Delhi"
           fill
           priority

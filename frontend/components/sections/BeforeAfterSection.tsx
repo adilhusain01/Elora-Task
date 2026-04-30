@@ -104,7 +104,7 @@ export function BeforeAfterSection() {
             {/* AFTER — full width base */}
             <div className="absolute inset-0">
               <Image
-                src="/images/after.webp"
+                src="/after.webp"
                 alt="After lip blushing treatment — fuller, defined lip colour"
                 fill
                 sizes="(max-width: 768px) 100vw, 80vw"
@@ -128,7 +128,7 @@ export function BeforeAfterSection() {
               style={{ width: `${sliderPos}%` }}
             >
               <Image
-                src="/images/before.webp"
+                src="/before.webp"
                 alt="Before lip blushing treatment — natural lips without pigmentation"
                 fill
                 sizes="(max-width: 768px) 100vw, 80vw"
